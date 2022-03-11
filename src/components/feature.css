@@ -1,0 +1,20 @@
+.head1{
+    font-size:24px ;
+    font-weight:450;
+}
+.description{
+    color:#847a7a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.features{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-top: 10px;
+}
+.head{
+    margin-left: 10px;
+}

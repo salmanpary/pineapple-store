@@ -1,0 +1,64 @@
+.slogan{
+    font-size: 70px;
+    font-weight: bolder;
+    
+}
+.slogan1{
+    color:#847a7a;
+    font-size: 21px;
+    font-weight:400;
+    margin-top: 10px;
+}
+.color{
+    background-color: #f34f01;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.color:hover{
+    background-color: #db4601;
+}
+.offer{
+    
+    display: flex;
+}
+.emoji{
+    margin-right:6px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+.animation{
+    display: flex;
+    position: relative;
+    animation:1.2s ease 0s infinite alternate mymove;
+    
+}
+.margin{
+    border-radius: 10px;
+}
+.text{
+    font-size: small;
+}
+.intro{
+    margin-left: 20px;
+    background-image: url('../images/orange.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x:right;
+    background-position-y: center;
+    background-size:50vw 70vh;
+    height: 90vh;
+    margin-bottom:1vh;
+    
+      
+}
+.shit{
+    margin: 20px;
+}
+.text{
+    white-space: pre;
+}
+@keyframes mymove{
+    from{top:0rem;}
+    to{top:0.5rem}
+}
