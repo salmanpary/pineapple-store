@@ -1,0 +1,27 @@
+.heading1{
+    font-size:30px;
+    font-weight: 600;
+}
+.desc{
+    
+        color:#847a7a;
+        font-size: 17px;
+        font-weight:400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+}
+.desci{
+    margin-left: 100px;
+}
+.all{
+    display: flex;
+    
+}
+.product{
+    margin-left: 20px;
+}
+.products{
+    margin-top: 20px;
+    margin-left: 20px;
+}
