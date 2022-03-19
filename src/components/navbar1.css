@@ -1,6 +1,8 @@
 
 .mar{
+ 
     margin-right:20px;
+  
 }
 .navbar-light .navbar-nav .nav-link {
     color:black;
@@ -8,4 +10,10 @@
 }
 .text{
     font-weight: 500;
+}
+.rad img{
+    border-radius:100px;
+}
+.rad1{
+    border-radius: 100%;
 }

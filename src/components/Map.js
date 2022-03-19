@@ -3,6 +3,18 @@ import map1 from '../images/map1.PNG'
 import './map.css'
 import { Button } from 'react-bootstrap'
 const Map = () => {
+  const data  = [{
+    place:'Kochi',
+    place2:'Model Engineering college Thrikkakara'
+  },
+  {
+    place:'Kochi',
+    place2:'Model Engineering college Thrikkakara'
+  },
+  {
+    place:'Kochi',
+    place2:'Model Engineering college Thrikkakara'
+  }]
   return (
     <div className="map">
       <div className="headingm">
@@ -10,46 +22,34 @@ const Map = () => {
         
         </div>
         <div className="mapimage">
-          <img className='rounded' src={map1} alt="" width="1236px" height="480px"/>
+          <img className='rounded' src={map1} alt=""/>
 
           </div>
-          <div className="locations">
+          <div className="locations ms-5 mt-4 mb-5">
           <div className="location">
-            <div className="headingloc">
-            Kochi
-              </div>
-            
-            <div className="address">
-              Model Engineering college<br/>
-              Thrikkakara
-              </div>
-            </div>
-            <div className="location">
-            <div className="headingloc">
-            Kochi
-              </div>
-            
-            <div className="address">
-              Model Engineering college<br/>
-              Thrikkakara
-              </div>
-            </div>
-            <div className="location">
-            <div className="headingloc">
-            Kochi
-              </div>
-            
-            <div className="address">
-              Model Engineering college<br/>
-              Thrikkakara
-              </div>
+           
+
+            {data.map((datas)=>(
+<div className="data_div">
+
+<h2>{datas.place}</h2>
+<p>{datas.place2}</p>
+
+</div>
+
+))}
             </div>
             
-            <div className="button2">
-            <Button variant="danger" className='rounded-pill color' size="lg">create a group</Button>
-              </div>
+
+
+            
+         
+            
+            <div className="button2 ms-5 me-5">
+            <Button variant="danger" className='rounded-pill color' size="lg" >create a group</Button>
+            
             </div>
-          
+            </div>
 
       </div>
   )

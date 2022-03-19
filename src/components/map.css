@@ -1,10 +1,14 @@
 .mapimage{
     
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    margin-left: 5vw;
+    margin-right:5vw;
+    margin-bottom:2vh;
+    margin-top: 2vh;
     
+}
+.mapimage img{
+    width: 90vw;
+    height: 40vw;
 }
 .rounded{
     border-radius: 30px;
@@ -26,11 +30,39 @@
 }
 .locations{
     display: flex;
-    margin-left: 20px;
+    
+    
+    align-items: center;
+    justify-content: space-between;
+    
 }
 .location{
-    margin-left: 20px;
+    display: flex;
 }
 .button2{
-    margin-left: 400px;
+   max-height: fit-content;
 }
+.data_div p{
+
+max-width: 25ch;
+}
+.color6{
+   background-color: orange;
+   border-radius: 100px;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #f34f01 !important;
+    height: 4rem;
+    font-size:1rem;
+    
+
+    
+}
+
+@media only screen and (max-width: px) {
+    .button2{
+        margin-left: 0;
+    }
+    
+  }
+

@@ -1,0 +1,33 @@
+.footer{
+    background-color: black;
+}
+.bor{
+    border-radius: 120%;
+}
+.foo{
+    display: flex;
+}
+ul{
+    
+    list-style: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+li{
+    margin-top: 0.5rem;
+
+}
+.socials{
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 0;
+    margin-left: auto;
+}

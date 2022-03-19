@@ -1,6 +1,15 @@
+
+.intro{
+    display: flex;
+    padding-top: 8rem;
+    margin-left: 2rem;
+   min-height: 90vh;
+    
+}
 .slogan{
-    font-size: 70px;
+    font-size: 4.5rem;
     font-weight: bolder;
+    width: 20ch;
     
 }
 .slogan1{
@@ -30,35 +39,58 @@
 .animation{
     display: flex;
     position: relative;
+    
+    
     animation:1.2s ease 0s infinite alternate mymove;
     
 }
 .margin{
     border-radius: 10px;
+    margin-bottom: 7vh;
 }
 .text{
     font-size: small;
 }
-.intro{
-    margin-left: 20px;
-    background-image: url('../images/orange.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x:right;
-    background-position-y: center;
-    background-size:50vw 70vh;
-    height: 90vh;
-    margin-bottom:1vh;
-    
-      
-}
+
+
 .shit{
     margin: 20px;
 }
-.text{
-    white-space: pre;
+
+
+.intro_right img{
+height: 30rem;
+display: flex;
 }
 @keyframes mymove{
     from{top:0rem;}
     to{top:0.5rem}
+}
+@media only screen and (max-width: 600px){
+    .intro{
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+    }
+  .intro_right
+
+      
+  
+    .intro_right img{
+
+        height: 20rem;
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        margin: auto;
+   
+        
+    }
+    
+    .slogan{
+        font-size: 3rem;
+       width: 17ch;
+       text-align: center;
+    }
+   
 }

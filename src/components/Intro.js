@@ -5,16 +5,18 @@ import gro from '../images/gro.jpg'
 import orange from '../images/orange.jpg'
 import { Button } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'
+
+
 const Intro = () => {
   return (
    <>
    <div className="intro">
   
-      
-     <div className="slogan">
-       <br/>
-        Premium products<br/>
-        with discount<br/>
+      <div className="intro_left">
+      <div className="slogan">
+       
+        Premium products
+        with discount
         and free shipping.Enjoy :) 
 
          
@@ -22,7 +24,7 @@ const Intro = () => {
        </div>
        <div className="slogan1">
          Receive weekly offers and shop together with you neighbors in
-         <br/>an exclusive group for you on Whatsapp
+         an exclusive group for you on Whatsapp
          </div>
          <div className="creategroup">
            <div className="button">
@@ -46,6 +48,12 @@ const Intro = () => {
 
                </div>
            </div>
+      </div>
+      <div className="intro_right">
+<img  src={orange} alt="" />
+
+      </div>
+    
        
        </div>
    </>

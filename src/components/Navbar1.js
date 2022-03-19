@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import { Container } from 'react-bootstrap'
-import logo from '../images/logo.jpg'
+import logo1 from '../images/logo1.png'
 import { Nav } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 import { Form } from 'react-bootstrap'
@@ -9,16 +9,19 @@ import './navbar1.css'
  const Navbar1 = () => {
   return (
       <>
-    <Navbar bg="white" expand="lg" fixed='top'>
+    <Navbar bg="white" expand="lg" fixed='top'className='mar'>
     <Container fluid>
-      <Navbar.Brand href="#">
+      <Navbar.Brand href="#" className='rad1'>
+      <div className="rad">
       <img
-        src={logo}
-        width="100"
-        height="100"
+        src={logo1}
+        width="50"
+        height="50"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       />
+      </div>
+     
           
           </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
