@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './faq.css'
 let summaryCollection = document.getElementsByTagName('summary');
 let signsCollection = document.getElementsByClassName('faq-open-icon');
@@ -9,7 +9,16 @@ for(let i = 0; i < summaryCollection.length; i++) {
     else signsCollection[i].innerHTML = '+';
   }
 }
+
+
+const faq = [{
+  id:1,
+  qn:'',
+  ans:''
+}]
+
 const Faq = () => {
+  
   return (
     <div class="container">
     <h2 class="faq-heading">Frequently asked questions</h2>

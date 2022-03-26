@@ -1,14 +1,7 @@
-.mapimage{
-    
-    margin-left: 5vw;
-    margin-right:5vw;
-    margin-bottom:2vh;
-    margin-top: 2vh;
-    
-}
+
 .mapimage img{
-    width: 90vw;
-    height: 40vw;
+    width:100%;
+    height:auto;
 }
 .rounded{
     border-radius: 30px;
@@ -38,6 +31,7 @@
 }
 .location{
     display: flex;
+    
 }
 .button2{
    max-height: fit-content;

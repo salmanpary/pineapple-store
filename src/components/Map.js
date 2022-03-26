@@ -21,7 +21,7 @@ const Map = () => {
         And Where are the Pineapple store groups?
         
         </div>
-        <div className="mapimage">
+        <div className="mapimage ms-2 me-4 my-3">
           <img className='rounded' src={map1} alt=""/>
 
           </div>
@@ -30,7 +30,7 @@ const Map = () => {
            
 
             {data.map((datas)=>(
-<div className="data_div">
+<div className="data_div ">
 
 <h2>{datas.place}</h2>
 <p>{datas.place2}</p>
@@ -45,10 +45,11 @@ const Map = () => {
             
          
             
+            
+            </div>
             <div className="button2 ms-5 me-5">
             <Button variant="danger" className='rounded-pill color' size="lg" >create a group</Button>
             
-            </div>
             </div>
 
       </div>

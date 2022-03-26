@@ -14,7 +14,7 @@
 }
 .slogan1{
     color:#847a7a;
-    font-size: 21px;
+    font-size:1.4rem;
     font-weight:400;
     margin-top: 10px;
 }
@@ -39,28 +39,25 @@
 .animation{
     display: flex;
     position: relative;
-    
-    
     animation:1.2s ease 0s infinite alternate mymove;
+    
     
 }
 .margin{
     border-radius: 10px;
-    margin-bottom: 7vh;
 }
 .text{
     font-size: small;
 }
 
 
-.shit{
-    margin: 20px;
-}
 
 
 .intro_right img{
-height: 30rem;
+height:auto;
+max-width: 100%;
 display: flex;
+max-height:80vh;
 }
 @keyframes mymove{
     from{top:0rem;}
@@ -88,9 +85,36 @@ display: flex;
     }
     
     .slogan{
+        margin-left: -0.6rem;
         font-size: 3rem;
        width: 17ch;
        text-align: center;
     }
    
+}
+@media screen and (max-width:840px) {
+    .slogan{
+        font-size: 3.2rem;
+    }
+    
+}
+@media screen and (max-width:1170px) {
+    .intro{
+        flex-direction: column-reverse;
+    }
+    
+    .slogan{
+        width: 25ch;
+      
+    }
+    .slogan1{
+        width:70ch;
+    }
+    .intro_right img{
+        display: block;
+      margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+        max-height:100%;
+    }
 }
