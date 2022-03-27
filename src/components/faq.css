@@ -23,6 +23,7 @@
     text-align: center;
     font-weight: 400;
     font-size: 30px;
+    overflow: hidden;
   }
   
   .faq-card {
@@ -71,3 +72,4 @@
     text-align: center;
     color: #8b8b9a;
   }
+ 

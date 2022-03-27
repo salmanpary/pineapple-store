@@ -92,6 +92,9 @@ a{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
+.res1{
+    overflow: hidden;
+}
  
 @media(max-width:1060px){
     .testimonial-box{

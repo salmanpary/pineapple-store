@@ -32,7 +32,7 @@ const Map = () => {
             {data.map((datas)=>(
 <div className="data_div ">
 
-<h2>{datas.place}</h2>
+<h2 className='res'>{datas.place}</h2>
 <p>{datas.place2}</p>
 
 </div>

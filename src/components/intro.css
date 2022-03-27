@@ -1,9 +1,12 @@
-
+*{
+    max-width: 100%;
+}
 .intro{
     display: flex;
     padding-top: 8rem;
     margin-left: 2rem;
-   min-height: 90vh;
+    
+    
     
 }
 .slogan{
@@ -49,15 +52,11 @@
 .text{
     font-size: small;
 }
-
-
-
-
 .intro_right img{
 height:auto;
 max-width: 100%;
 display: flex;
-max-height:80vh;
+max-height:700px;
 }
 @keyframes mymove{
     from{top:0rem;}
@@ -85,10 +84,21 @@ max-height:80vh;
     }
     
     .slogan{
-        margin-left: -0.6rem;
         font-size: 3rem;
-       width: 17ch;
-       text-align: center;
+       max-width: 16ch;
+       
+    }
+    .slogan1{
+        max-width:45ch;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    .text{
+        width: 30ch;
+    }
+    .animation{
+        margin-bottom:8px;
     }
    
 }
@@ -96,6 +106,17 @@ max-height:80vh;
     .slogan{
         font-size: 3.2rem;
     }
+    .slogan1{
+        font-size:2.6rem;
+        width: 8ch;
+    }
+    
+}
+@media screen and (max-width:862px) {
+    .slogan1{
+        width:50ch;
+    }
+
     
 }
 @media screen and (max-width:1170px) {
@@ -104,11 +125,14 @@ max-height:80vh;
     }
     
     .slogan{
-        width: 25ch;
+        width: 30ch;
+        overflow: hidden;
+        font-size:3rem ;
       
     }
     .slogan1{
         width:70ch;
+        font-size: 1.2rem;
     }
     .intro_right img{
         display: block;
@@ -116,5 +140,38 @@ max-height:80vh;
        margin-right: auto;
        width: 50%;
         max-height:100%;
+        
     }
+}
+@media  screen and (max-width:492px) {
+    .slogan{
+        font-size:2.3rem;
+    }
+    .slogan1{
+        max-width: 40ch;
+    }
+    .animation{
+        margin-right:15vw;
+        margin-bottom: 10px;
+    }
+    .text{
+        width: 30ch;
+        font-size: smaller;
+    }
+   
+    
+}
+@media screen and (max-width:435px){
+    .slogan1{
+        max-width: 25ch;
+        font-size: 1.5rem;
+    }
+}
+@media screen and(max-width:390px){
+    .slogan{
+      max-width: 20ch;
+
+    }
+   
+    
 }

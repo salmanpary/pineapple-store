@@ -5,7 +5,7 @@
     border-radius: 10px;
     margin-top: 1%;
     margin-bottom: 1%;
-    min-height:35vh;
+    min-height:15rem;
     min-width: 90vw;
     display: flex;
     flex-direction: column;
@@ -37,4 +37,10 @@ margin-right: auto;
 }
 .button3{
     text-align: center;
+}
+@media screen and (max-width:411px){
+    .section{
+       min-height:40vh ;
+    }
+    
 }

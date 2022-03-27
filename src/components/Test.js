@@ -6,7 +6,7 @@ const Test = () => {
        
         <div class="testimonial-heading">
             <span>Comments</span>
-            <h4>Clients Says</h4>
+            <h4 class="res1">Clients Says</h4>
         </div>
         <div class="testimonial-box-container">
             <div class="testimonial-box">
