@@ -16,7 +16,7 @@ const Test = () => {
                             <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" alt=""/>
                         </div>
                         <div class="name-user">
-                            <strong>Liam mendes</strong>
+                            <strong>Liam mendesr</strong>
                            
                         </div>
                     </div>
