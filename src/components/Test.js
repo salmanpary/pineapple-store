@@ -13,7 +13,7 @@ const Test = () => {
                 <div class="box-top">
                     <div class="profile">
                         <div class="profile-img">
-                            <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                            <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" alt=""/>
                         </div>
                         <div class="name-user">
                             <strong>Liam mendes</strong>
@@ -36,7 +36,7 @@ const Test = () => {
                 <div class="box-top">
                     <div class="profile">
                         <div class="profile-img">
-                            <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                            <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" alt="" />
                         </div>
                         <div class="name-user">
                             <strong>Noah Wood</strong>
@@ -59,7 +59,7 @@ const Test = () => {
                 <div class="box-top">
                     <div class="profile">
                         <div class="profile-img">
-                            <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                            <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" alt=""/>
                         </div>
                         <div class="name-user">
                             <strong>Oliver Queen</strong>
@@ -82,7 +82,7 @@ const Test = () => {
                 <div class="box-top">
                     <div class="profile">
                         <div class="profile-img">
-                            <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                            <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" alt="" />
                         </div>
                         <div class="name-user">
                             <strong>Barry Allen</strong>

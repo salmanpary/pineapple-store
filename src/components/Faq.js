@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './faq.css'
 let summaryCollection = document.getElementsByTagName('summary');
 let signsCollection = document.getElementsByClassName('faq-open-icon');
@@ -11,11 +11,6 @@ for(let i = 0; i < summaryCollection.length; i++) {
 }
 
 
-const faq = [{
-  id:1,
-  qn:'',
-  ans:''
-}]
 
 const Faq = () => {
   

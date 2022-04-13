@@ -16,11 +16,11 @@ const Footer = () => {
   
   <div className="things">
     <ul>
-      <li><a href="#"> Home</a></li>
-      <li><a href="#">About us</a></li>
-      <li><a href="#">Careers</a></li>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Terms and Conditions of Use</a></li>
+      <li><a href="https://www.w3schools.com/"> Home</a></li>
+      <li><a href="https://www.w3schools.com/">About us</a></li>
+      <li><a href="https://www.w3schools.com/">Careers</a></li>
+      <li><a href="https://www.w3schools.com/">Privacy Policy</a></li>
+      <li><a href="https://www.w3schools.com/">Terms and Conditions of Use</a></li>
     </ul>
 
   </div>
@@ -32,10 +32,10 @@ const Footer = () => {
         </li>
       </ul>
       <div className="socials">
-        <a href="#"><AiOutlineFacebook /></a>
+        <a href="https://www.w3schools.com/"><AiOutlineFacebook /></a>
       
-        <a href="#"><AiOutlineInstagram/></a>
-        <a href="#"><AiOutlineLinkedin/></a>
+        <a href="https://www.w3schools.com/"><AiOutlineInstagram/></a>
+        <a href="https://www.w3schools.com/"><AiOutlineLinkedin/></a>
       
       </div>
 
