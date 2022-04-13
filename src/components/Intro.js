@@ -28,7 +28,7 @@ const Intro = () => {
          </div>
          <div className="creategroup">
            <div className="button">
-             <Button variant="danger" className='rounded-pill color' size="lg">create a group</Button>
+             <Button variant="danger" className='rounded-pill color ms-2' size="lg">create a group</Button>
 
              </div>
              <div className="animation">

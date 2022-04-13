@@ -52,12 +52,6 @@
 .text{
     font-size: small;
 }
-.intro_right img{
-height:auto;
-max-width: 100%;
-display: flex;
-max-height:700px;
-}
 @keyframes mymove{
     from{top:0rem;}
     to{top:0.5rem}

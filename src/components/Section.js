@@ -12,8 +12,8 @@ const Section = (props) => {
                 {props.text}
            
             </div>
-                <div className="button3">
-                <Button variant="danger" className='rounded-pill color1' size="lg">{props.buttontext}</Button>
+                <div className="button3 mt-3">
+                <Button variant="danger" className='rounded-pill color1 my-2' size="lg">{props.buttontext}</Button>
                     
                     </div>
             </div>

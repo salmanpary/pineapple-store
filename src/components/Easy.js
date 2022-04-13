@@ -18,7 +18,7 @@ const Easy = () => {
       <Feature icon="bi:stars" heading="Earn 10 tasting kits for inviting neighbors" description={["Just click on Create a Group and we'll open an exclusive WhatsApp group ", <br/>,  "for you and your neighbors."]}/>
       <Feature icon="iconoir:refresh-double" heading="Access the best premium product offers and sweepstakes" description={["Just click on Create a Group and we'll open an exclusive WhatsApp group ", <br/>,  "for you and your neighbors."]}/>
       <Feature icon="mdi:truck-fast-outline" heading="Receive at your doorstep with Free Shipping" description={["Just click on Create a Group and we'll open an exclusive WhatsApp group ", <br/>,  "for you and your neighbors."]}/>
-      <div className="button">
+      <div className="button mb-3">
       <Button variant="danger" className='rounded-pill color1' size="lg">create a group</Button>
       </div>
       </div>

@@ -47,8 +47,8 @@ const Map = () => {
             
             
             </div>
-            <div className="button2 ms-5 me-5">
-            <Button variant="danger" className='rounded-pill color' size="lg" >create a group</Button>
+            <div className="button2 ms-4 me-5">
+            <Button variant="danger" className='rounded-pill color ms-2' size="lg" >create a group</Button>
             
             </div>
 
