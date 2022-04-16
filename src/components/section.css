@@ -40,7 +40,7 @@ margin-right: auto;
 }
 @media screen and (max-width:411px){
     .section{
-       min-height:45vh ;
+       min-height:43vh ;
     }
     .caption{
         margin:10px;

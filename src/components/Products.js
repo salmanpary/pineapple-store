@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image'
 
 const Products = () => {
   return (
-      <div className="products">
+      <div className="products m-3">
           <div className="heading1">
           Unique products? Yup. It's on the leash
 
