@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap'
 const Easy = () => {
   return (
       <>
-      <div className="info mt-3">
+      <div className="info m-3">
           <div className="heading">
       Shopping on pineapple store <br />
        is very easy
