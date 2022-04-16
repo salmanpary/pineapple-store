@@ -5,15 +5,15 @@ import { Button } from 'react-bootstrap'
 const Map = () => {
   const data  = [{
     place:'Kochi',
-    place2:'Model Engineering college Thrikkakara'
+    place2:'near to the beach',
   },
   {
-    place:'Kochi',
-    place2:'Model Engineering college Thrikkakara'
+    place:'calicut',
+    place2:'near hilite mall'
   },
   {
-    place:'Kochi',
-    place2:'Model Engineering college Thrikkakara'
+    place:'Malappuram',
+    place2:'near to the beach'
   }]
   return (
     <div className="map">
@@ -31,7 +31,7 @@ const Map = () => {
           <div className="row">
             {data.map((datas)=>(
               
-                <div className=" col-lg-4  col-md-12 col-sm-12 p-3 col-xl-3">
+                <div className=" col-lg-6  col-md-12 col-sm-12 p-3 col-xl-3">
 
 <h2 className='res'>{datas.place}</h2>
 <p>{datas.place2}</p>
