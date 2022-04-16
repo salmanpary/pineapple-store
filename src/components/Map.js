@@ -26,7 +26,7 @@ const Map = () => {
 
       <div className="row">
         {data.map((datas) => (
-          <div className=" col-lg-6  col-md-12 col-sm-12 p-3 col-xl-3">
+          <div className=" col-lg-6  col-md-12 col-sm-6 p-3 col-xl-3 col-12">
             <h2 className="res">{datas.place}</h2>
             <p>{datas.place2}</p>
           </div>
