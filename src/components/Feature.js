@@ -3,6 +3,7 @@ import { Icon } from '@iconify/react';
 import './feature.css'
 const Feature = (props) => {
   return (
+    <>
     <div className="features">
           <div className="icon">
           <Icon icon={props.icon} color="#f34f01" width="30" height="40" />
@@ -19,6 +20,9 @@ const Feature = (props) => {
                   </div>
                   
           </div>
+          <br />
+          
+          </>
   )
 }
 export default Feature;

@@ -8,8 +8,8 @@ import {AiOutlineLinkedin} from 'react-icons/ai'
 const Footer = () => {
   return (
     <>
-    <div className="footer mt-5">
-      <div className="image ms-3">
+    <div className="footer mt-5 container-fluid">
+      <div className="image ms-3 pt-3">
       <img src={logo} alt="" width="70" height="70" className="bor"/>
       </div>
     

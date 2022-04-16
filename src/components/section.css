@@ -40,7 +40,16 @@ margin-right: auto;
 }
 @media screen and (max-width:411px){
     .section{
-       min-height:35vh ;
+       min-height:45vh ;
+    }
+    .caption{
+        margin:10px;
+    }
+    .descri{
+        margin: 10px;
+    }
+    .button3{
+        margin: 10px;
     }
     
 }

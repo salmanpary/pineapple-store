@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap'
 const Easy = () => {
   return (
       <>
-      <div className="info">
+      <div className="info mt-3">
           <div className="heading">
       Shopping on pineapple store <br />
        is very easy
@@ -22,7 +22,9 @@ const Easy = () => {
       <Button variant="danger" className='rounded-pill color1' size="lg">create a group</Button>
       </div>
       </div>
+<div className="mobile">
 
+</div>
       
 
       </>

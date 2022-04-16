@@ -25,20 +25,25 @@ const Map = () => {
           <img className='rounded' src={map1} alt=""/>
 
           </div>
-          <div className="locations ms-5 mt-4 mb-5">
-          <div className="location">
+          
+      
            
-
+          <div className="row">
             {data.map((datas)=>(
-<div className="data_div ">
+              
+                <div className=" col-lg-4  col-md-12 col-sm-12 pt-5 col-xl-3">
 
 <h2 className='res'>{datas.place}</h2>
 <p>{datas.place2}</p>
 
 </div>
 
+              
+
+
 ))}
-            </div>
+</div>
+           
             
 
 
@@ -46,7 +51,7 @@ const Map = () => {
          
             
             
-            </div>
+            
             <div className="button2 ms-4 me-5">
             <Button variant="danger" className='rounded-pill color ms-2' size="lg" >create a group</Button>
             

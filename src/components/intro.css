@@ -1,171 +1,214 @@
-*{
+* {
     max-width: 100%;
 }
-.intro{
+
+.intro {
     display: flex;
-    padding-top: 8rem;
+    padding-top: 6rem;
     margin-left: 2rem;
-    
-    
-    
+
+
+
 }
-.slogan{
+
+.slogan {
     font-size: 4.5rem;
     font-weight: bolder;
     width: 20ch;
-    
+
 }
-.slogan1{
-    color:#847a7a;
-    font-size:1.4rem;
-    font-weight:400;
+
+.slogan1 {
+    color: #847a7a;
+    font-size: 1.4rem;
+    font-weight: 400;
     margin-top: 10px;
 }
-.color{
+
+.color {
     background-color: #f34f01;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 }
-.color:hover{
+
+.color:hover {
     background-color: #db4601;
 }
-.offer{
-    
+
+.offer {
+
     display: flex;
 }
-.emoji{
-    margin-right:6px;
+
+.emoji {
+    margin-right: 6px;
     margin-top: 2px;
     font-size: 20px;
 }
-.animation{
+
+.animation {
     display: flex;
     position: relative;
-    animation:1.2s ease 0s infinite alternate mymove;
-    
-    
+    animation: 1.2s ease 0s infinite alternate mymove;
+
+
 }
-.margin{
+
+.margin {
     border-radius: 10px;
 }
-.text{
+
+.text {
     font-size: small;
 }
-@keyframes mymove{
-    from{top:0rem;}
-    to{top:0.5rem}
+
+@keyframes mymove {
+    from {
+        top: 0rem;
+    }
+
+    to {
+        top: 0.5rem
+    }
 }
-@media only screen and (max-width: 600px){
-    .intro{
+
+@media only screen and (max-width: 600px) {
+    
+    .intro {
         flex-direction: column-reverse;
         height: 100%;
         width: 100%;
-    }
-  .intro_right
-
-      
-  
-    .intro_right img{
-
-        height: 20rem;
-        display: flex;
-        flex-grow: 1;
-        align-items: center;
-        margin: auto;
-   
         
     }
-    
-    .slogan{
+
+    .intro_right  img {
+
+        
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+         margin-left: 0;
+
+    }
+
+    .slogan {
         font-size: 3rem;
-       max-width: 16ch;
-       
+        max-width: 16ch;
+
     }
-    .slogan1{
-        max-width:45ch;
+
+    .slogan1 {
+        max-width: 45ch;
     }
-    *{
+
+    * {
         overflow-x: hidden;
     }
-    .text{
+
+    .text {
         width: 30ch;
-    }
-    .animation{
-        margin-bottom:8px;
-    }
-   
-}
-@media screen and (max-width:840px) {
-    .slogan{
-        font-size: 3.2rem;
-    }
-    .slogan1{
-        font-size:2.6rem;
-        width: 8ch;
-    }
-    
-}
-@media screen and (max-width:862px) {
-    .slogan1{
-        width:50ch;
     }
 
-    
+    .animation {
+        margin-bottom: 8px;
+    }
+
 }
+
+@media screen and (max-width:840px) {
+    .slogan {
+        font-size: 3.2rem;
+    }
+
+    .slogan1 {
+        font-size: 2.6rem;
+        width: 8ch;
+    }
+
+}
+
+@media screen and (max-width:862px) {
+    .slogan1 {
+        width: 50ch;
+    }
+
+
+}
+
 @media screen and (max-width:1170px) {
-    .intro{
+    .intro {
         flex-direction: column-reverse;
     }
-    
-    .slogan{
+
+    .slogan {
         width: 30ch;
         overflow: hidden;
-        font-size:3rem ;
-      
+        font-size: 3rem;
+
     }
-    .slogan1{
-        width:70ch;
+
+    .slogan1 {
+        width: 70ch;
         font-size: 1.2rem;
     }
-    .intro_right img{
-        display: block;
-      margin-left: auto;
-       margin-right: auto;
-       width: 50%;
-        max-height:100%;
+
+    .intro_right img {
         
+        margin-left:-17px;
+        margin-right: auto;
+    
+       
+        max-height: 100%;
+
     }
 }
-@media  screen and (max-width:492px) {
-    .slogan{
-        font-size:2.3rem;
+
+@media screen and (max-width:492px) {
+    .slogan {
+        font-size: 2.3rem;
     }
-    .slogan1{
+
+    .slogan1 {
         max-width: 40ch;
     }
-    .animation{
-        margin-right:15vw;
+
+    .animation {
+        margin-right: 15vw;
         margin-bottom: 10px;
     }
-    .text{
+
+    .text {
         width: 30ch;
         font-size: smaller;
     }
-   
-    
+
+
 }
-@media screen and (max-width:435px){
-    .slogan1{
+
+@media screen and (max-width:435px) {
+    .slogan1 {
         max-width: 25ch;
         font-size: 1.5rem;
     }
 }
-@media screen and(max-width:390px){
-    .slogan{
-      max-width: 20ch;
+
+@media screen and(max-width:390px) {
+    .slogan {
+        max-width: 20ch;
 
     }
-   
+
+
+}
+@media screen and (min-width:1429px) {
+    .img-fluid{
+        height: 80%;
+    }
+    .intro_right{
+        height:500px;
+
+    }
     
 }
