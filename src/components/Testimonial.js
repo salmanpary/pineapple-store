@@ -29,7 +29,7 @@ const Testimonial = () => {
 
           <div class="col-md-4 text-center">
             <div class="profile">
-              <img src="https://i.ibb.co/4FhtBVc/img2.png" class="user" />
+              <img src="https://i.ibb.co/4FhtBVc/img2.png" class="user" alt=""/>
               <blockquote>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Assumenda fugiat numquam amet debitis, atque maxime labore,
@@ -45,7 +45,7 @@ const Testimonial = () => {
 
           <div class="col-md-4 text-center">
             <div class="profile">
-              <img src="https://i.ibb.co/s6PNvrN/img3.png" class="user" />
+              <img src="https://i.ibb.co/s6PNvrN/img3.png" class="user" alt=""/>
               <blockquote>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Assumenda fugiat numquam amet debitis, atque maxime labore,

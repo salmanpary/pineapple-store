@@ -92,3 +92,8 @@
      width: 35ch;
     }
   }
+  @media screen and (max-width:378px) {
+    summary {
+     width: 30ch;
+    }
+  }
