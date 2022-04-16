@@ -56,10 +56,3 @@
     overflow: hidden;
 }
 
-@media only screen and (max-width: px) {
-    .button2{
-        margin-left: 0;
-    }
-    
-  }
-

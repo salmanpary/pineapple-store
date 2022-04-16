@@ -72,4 +72,23 @@
     text-align: center;
     color: #8b8b9a;
   }
- 
+  @media screen and (max-width:676px) {
+    summary {
+     width: 60ch;
+    }
+  }
+  @media screen and (max-width:578px) {
+    summary {
+     width: 50ch;
+    }
+  }
+  @media screen and (max-width:578px) {
+    summary {
+     width: 40ch;
+    }
+  }
+  @media screen and (max-width:435px) {
+    summary {
+     width: 35ch;
+    }
+  }

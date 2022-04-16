@@ -38,10 +38,8 @@ margin-right: auto;
 .button3{
     text-align: center;
 }
-@media screen and (max-width:411px){
-    .section{
-       min-height:43vh ;
-    }
+@media screen and (max-width:518px){
+   
     .caption{
         margin:10px;
     }
