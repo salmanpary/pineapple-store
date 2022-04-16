@@ -1,21 +1,25 @@
-.head1{
-    font-size:24px ;
-    font-weight:450;
+.head1 {
+    font-size: 24px;
+    font-weight: 450;
 }
-.description{
-    color:#847a7a;
+
+.description {
+    color: #847a7a;
     margin-top: 10px;
 
 }
-.features{
+
+.features {
     display: flex;
     margin-left: 20px;
-    
-   
+
+
 }
-.icon{
+
+.icon {
     margin-top: 10px;
 }
-.head{
+
+.head {
     margin-left: 10px;
 }

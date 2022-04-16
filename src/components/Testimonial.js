@@ -1,5 +1,5 @@
-import React from 'react'
-import './testimonial.css'
+import React from "react";
+import "./testimonial.css";
 
 const Testimonial = () => {
   return (
@@ -9,7 +9,11 @@ const Testimonial = () => {
         <div class="row">
           <div class="col-md-4 text-center">
             <div class="profile">
-              <img src="https://i.ibb.co/SPHQk2y/img1.png" class="user" alt="shit" />
+              <img
+                src="https://i.ibb.co/SPHQk2y/img1.png"
+                class="user"
+                alt="shit"
+              />
               <blockquote>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Assumenda fugiat numquam amet debitis, atque maxime labore,
@@ -17,7 +21,9 @@ const Testimonial = () => {
                 ratione veniam vitae! Obcaecati, explicabo.
               </blockquote>
               <h3>Liza Soberano</h3>
-              <p>Manager at <span>XYZ</span></p>
+              <p>
+                Manager at <span>XYZ</span>
+              </p>
             </div>
           </div>
 
@@ -31,7 +37,9 @@ const Testimonial = () => {
                 ratione veniam vitae! Obcaecati, explicabo.
               </blockquote>
               <h3>Kim Seoul-hyun</h3>
-              <p>Co-Founder at <span>ABC</span></p>
+              <p>
+                Co-Founder at <span>ABC</span>
+              </p>
             </div>
           </div>
 
@@ -45,12 +53,14 @@ const Testimonial = () => {
                 ratione veniam vitae! Obcaecati, explicabo.
               </blockquote>
               <h3>Hande Ercel</h3>
-              <p>CEO at <span>WYZ</span></p>
+              <p>
+                CEO at <span>WYZ</span>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
-export default Testimonial
+  );
+};
+export default Testimonial;

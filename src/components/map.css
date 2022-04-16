@@ -1,58 +1,69 @@
-
-.mapimage img{
-    width:100%;
-    height:auto;
+.mapimage img {
+    width: 100%;
+    height: auto;
 }
-.rounded{
+
+.rounded {
     border-radius: 30px;
 }
-.headingm{
-    
-        font-size:36px;
-        font-weight:500;
+
+.headingm {
+
+    font-size: 36px;
+    font-weight: 500;
 }
-.map{
+
+.map {
     margin-left: 20px;
     overflow: hidden;
 }
-.headingloc{
+
+.headingloc {
     font-size: 20px;
     font-weight: 500;
 }
-.address{
-    color:#847a7a;
+
+.address {
+    color: #847a7a;
 }
-.locations{
+
+.locations {
     display: flex;
-    
-    
+
+
     align-items: center;
     justify-content: space-between;
-    overflow:hidden;
-    
-}
-.location{
-    display: flex;
-    
-    
-}
-.button2{
-   max-height: fit-content;
+    overflow: hidden;
+
 }
 
-.color6{
-   background-color: orange;
-   border-radius: 100px;
+.location {
+    display: flex;
+
+
 }
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+
+.button2 {
+    max-height: fit-content;
+}
+
+.color6 {
+    background-color: orange;
+    border-radius: 100px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
     background-color: #f34f01 !important;
     height: 4rem;
-    font-size:1rem;
-    
+    font-size: 1rem;
 
-    
+
+
 }
-.res{
+
+.res {
     overflow: hidden;
 }
-
