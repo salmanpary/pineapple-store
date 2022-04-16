@@ -13,8 +13,6 @@ for (let i = 0; i < summaryCollection.length; i++) {
 
 const Faq = () => {
   return (
-    <>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />   
     <div class="container">
       <h2 class="faq-heading">Frequently asked questions</h2>
 
@@ -86,7 +84,6 @@ const Faq = () => {
         contact us. We will answer shortly!
       </p>
     </div>
-    </>
   );
 };
 export default Faq;
