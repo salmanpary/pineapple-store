@@ -1,10 +1,7 @@
 import React from "react";
 import "./footer.css";
 import logo from "../images/logo1-modified.png";
-import { AiOutlineFacebook } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { AiOutlineLinkedin } from "react-icons/ai";
-
+import { SocialIcon } from "react-social-icons";
 const Footer = () => {
   return (
     <>
@@ -40,16 +37,17 @@ const Footer = () => {
             <li>Name</li>
           </ul>
           <div className="socials">
-            <a href="https://www.w3schools.com/">
-              <AiOutlineFacebook />
-            </a>
+            <div className="space">
+              <SocialIcon url="https://facebook.com/salmanpary" bgColor="	#4267B2" />
+            </div>
 
-            <a href="https://www.w3schools.com/">
-              <AiOutlineInstagram />
-            </a>
-            <a href="https://www.w3schools.com/">
-              <AiOutlineLinkedin />
-            </a>
+            <div className="space">
+              <SocialIcon url="https://instagram.com/salmanpary" bgColor="#bc2a8d" />
+            </div>
+
+            <div className="space">
+              <SocialIcon url="https://twitter.com/jaketrent" />
+            </div>
           </div>
         </div>
       </div>

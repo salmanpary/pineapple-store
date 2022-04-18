@@ -33,12 +33,16 @@ li {
 }
 
 .socials {
-    color: #fff;
-    font-size: 2rem;
+    
     display: flex;
     justify-content: space-between;
+    
     margin-right: 0;
     margin-left: auto;
+    padding: 2px;
+}
+.space{
+    margin-left: 20px;
 }
 @media only screen and (max-device-width: 480px) {
     .footer{

@@ -21,9 +21,35 @@
 @media only screen and (max-width: 600px) {
     .heading{
     
-padding-right:20px;
-text-align: center;
+font-size: 2.5rem;
 
 }
 }
+@media only screen and (max-width: 491px) {
+    .heading{
+    
+font-size: 2.1rem;
 
+}
+}
+@media only screen and (max-width: 422px) {
+    .heading{
+    
+font-size: 2rem;
+
+}
+}
+@media only screen and (max-width: 408px) {
+    .heading{
+    
+font-size: 1.8rem;
+
+}
+}
+@media only screen and (max-width: 368px) {
+    .heading{
+    
+font-size: 1.7rem;
+
+}
+}
