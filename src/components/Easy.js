@@ -8,7 +8,7 @@ const Easy = () => {
     <>
       <div className="info m-3">
         <div className="heading">
-          Shopping on pineapple store <br />
+          Shopping on pineapple store 
           is very easy
         </div>
 
