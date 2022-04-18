@@ -38,15 +38,15 @@ const Footer = () => {
           </ul>
           <div className="socials">
             <div className="space">
-              <SocialIcon url="https://facebook.com/salmanpary" bgColor="	#4267B2" fgColor="white" />
+              <SocialIcon url="https://facebook.com/salmanpary" bgColor="	#4267B2" fgColor="white" style={{ height:40, width:40 }}/>
             </div>
 
             <div className="space">
-              <SocialIcon url="https://instagram.com/salmanpary" bgColor="#bc2a8d"  fgColor="white"/>
+              <SocialIcon url="https://instagram.com/salmanpary" bgColor="#bc2a8d"  fgColor="white" style={{ height:40, width:40 }}/>
             </div>
 
             <div className="space">
-              <SocialIcon url="https://twitter.com/jaketrent" fgColor="white" />
+              <SocialIcon url="https://twitter.com/jaketrent" fgColor="white" style={{ height:40, width:40 }} />
             </div>
           </div>
         </div>
