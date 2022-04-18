@@ -40,9 +40,11 @@ li {
     margin-right: 0;
     margin-left: auto;
     padding: 2px;
+    padding-bottom:20px;
 }
 .space{
     margin-left: 20px;
+    
 }
 @media only screen and (max-device-width: 480px) {
     .footer{
